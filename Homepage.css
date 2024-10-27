@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #7e4545;
+  }
+  
+  .logo {
+    font-size: 24px;
+    color: white;
+  }
+  
+  .nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    color: white;
+  }
+  
+  .nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .login-button {
+    padding: 5px 10px;
+    border-radius: 50px;
+    color: #7e4545;
+    background-color: #f7f7f7;
+  }
+  
+  .hero {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .hero-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .hero-text {
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    transform: translate(-50%, -0%);
+  }
+  
+  .about {
+    padding: 20px;
+    text-align: left;
+    display: flex;
+  }
+  
+  .about p {
+    top: 50%;
+    margin: 0 auto;
+    text-align: left;
+    flex-wrap: wrap;
+    font-size: large;
+  }
+  
+  .about-image {
+    width: 300px;
+    margin-top: 20px;
+    align-content: flex-end;
+  }
+  
+  .info-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f7f7f7;
+  }
+  
+  .info-box {
+    max-width: 300px;
+    text-align: center;
+    color: #7e4545;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #7e4545;
+    color: white;
+  }
+  
+  .view-products-button {
+    text-align: center;
+  }
+  .vp {
+    background-color: #7e4545;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    top: 50%;
+  }
+  .ht2 {
+    color: #7e4545;
+  }
+  .bleh {
+    width: 5px;
+    height: 100px;
+  }
+  h2 {
+    color: black;
+  }
+  .white {
+    color: #f7f7f7;
+  }

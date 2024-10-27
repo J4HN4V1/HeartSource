@@ -1,0 +1,44 @@
+.empty-cart-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    margin-bottom: 20px;
+    background-color: #7e4545;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  .cart-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .flower-image {
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .empty-cart-message {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .browse-message {
+    font-size: 16px;
+  }
+  
+  .view-products-button {
+    background-color: #7e4545;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .empty-cart-container {
+    font-family: Arial, sans-serif;
+  }
